@@ -1,0 +1,6 @@
+.trendContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(247, 249, 249, 1);
+	border-radius: 10px;
+}

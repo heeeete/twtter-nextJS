@@ -1,0 +1,29 @@
+.navName {
+	font-size: 23px;
+	margin-left: 20px;
+	/* 글자랑 svg아이콘 정렬 */
+	vertical-align: middle;
+}
+
+.icon {
+	/* 글자랑 svg아이콘 정렬 */
+	vertical-align: middle;
+}
+
+.link {
+	display: flex;
+
+	margin: 7px 0;
+	border-radius: 30px;
+	transition: 0.2s;
+}
+.linkContainer {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 30px;
+	transition: 0.2s;
+}
+
+.link:hover > .linkContainer {
+	background-color: rgba(15, 20, 25, 0.1);
+}
